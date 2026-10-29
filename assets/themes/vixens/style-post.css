@@ -1,0 +1,101 @@
+h1, h2, h3 {
+    color: white;
+}
+
+li, a, p {
+    color: white;
+}
+
+img, video {
+    background-color: black;
+}
+
+html {
+    background-color: black;
+}
+
+body::before {
+    background: linear-gradient(45deg, hsl(282, 100%, 4%), hsl(282, 100%, 7%));
+}
+
+header {
+    background-color: darkviolet;
+    background: linear-gradient(hsl(282, 100%, 44%), hsl(282, 100%, 34%));
+}
+
+header h1 {
+    text-shadow: 0 0 10px hsl(0, 0%, 0%, 50%);
+}
+
+nav {
+    background-color: hsl(0, 0%, 11%);
+    box-shadow: 0 6px 6px hsl(0, 0%, 0%, 20%);
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.carrousel {
+    color: white;
+    background: hsl(282, 100%, 28%);
+    box-shadow: rgba(0,0,0, 0.25) 0 0 12px;
+}
+
+.carrousel:hover {
+    background: hsl(282, 100%, 35%);
+}
+
+section {
+    background: linear-gradient(45deg, hsl(0, 0%, 100%, 5%), hsl(0, 0%, 100%, 7%));
+    box-shadow: 0 0 15px hsl(0, 0%, 0%, 10%);
+}
+
+#movie video {
+    box-shadow: 0 0 12px hsl(0, 0%, 0%, 35%);
+}
+
+#previews img:hover {
+    filter: brightness(1.10);
+}
+
+#posts video {
+    background: linear-gradient(45deg, hsl(0, 0%, 3%), hsl(0, 0%, 11%));
+    box-shadow: 0 0 8px hsl(0, 0%, 0%, 35%);
+}
+
+#posts video:hover {
+    box-shadow: 0 0 8px hsl(0, 0%, 50%, 50%);
+}
+
+#webpages button {
+    background: linear-gradient(hsl(282, 80%, 41%), hsl(282, 70%, 30%));
+}
+
+#webpages button:hover {
+    background: linear-gradient(hsl(282, 85%, 44%), hsl(282, 75%, 33%));
+    box-shadow: 0 0 10px hsl(0, 0%, 100%, 20%);
+}
+
+#gohead {
+    background: hsl(282, 100%, 28%);
+    box-shadow: rgba(0,0,0, 0.25) 0 0 12px;
+}
+
+#gohead:hover {
+    background: hsl(282, 100%, 35%);
+}
+
+#gohead p {
+    color: white;
+}
+
+footer {
+    background-color: darkviolet;
+    background: linear-gradient(hsl(282, 100%, 44%), hsl(282, 100%, 25%));
+    box-shadow: 0 0 15px hsl(0, 0%, 0%, 50%);
+}
+
+footer h1 {
+    text-shadow: 0 0 10px hsl(0, 0%, 0%, 50%);
+}

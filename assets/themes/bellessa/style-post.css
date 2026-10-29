@@ -1,0 +1,129 @@
+a {
+    color: black;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+li, p, a {
+    color: white;
+}
+
+img, video {
+    background: linear-gradient(45deg, hsl(0, 0%, 2%), hsl(0, 0%, 7%));
+}
+
+html {
+    background: black;
+}
+
+body::before {
+    background: linear-gradient(45deg, hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+}
+
+header {
+    background: linear-gradient(hsl(282, 100%, 44%), hsl(282, 100%, 34%));
+}
+
+header h1 {
+    text-shadow: hsl(0, 0%, 0%, 25%) 0 0 15px;
+}
+
+nav {
+    background: hsl(0, 0%, 12%);
+    box-shadow: hsl(0, 0%, 0%, 12%) 0 6px 6px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: hsl(51, 90%, 50%);
+}
+
+.carrousel {
+    color: white;
+    background: hsl(282, 100%, 28%);
+    box-shadow: rgba(0,0,0, 0.25) 0 0 12px;
+}
+
+.carrousel:hover {
+    background: hsl(282, 100%, 35%);
+}
+
+section {
+    background: hsl(0, 0%, 50%, 10%);
+}
+
+section h2, section h3 {
+    text-shadow: hsl(0, 0%, 0%, 25%) 0 0 13px;
+}
+
+#watch video {
+    box-shadow: hsl(0, 0%, 0%, 50%) 0 0 8px;
+}
+
+#description a {
+    color: hsl(282, 100%, 48%);
+}
+
+#description a:hover {
+    color: hsl(282, 100%, 65%);
+}
+
+#frames a:hover {
+    box-shadow: hsl(0, 0%, 100%, 10%) 0 0 8px;
+}
+
+#frames a:hover img {
+    filter: brightness(1.08);
+}
+
+#posts a {
+    background: black;
+}
+
+#posts a:hover {
+    box-shadow: hsl(0, 0%, 35%, 35%) 0 0 10px;
+}
+
+#posts span {
+    background: black;
+}
+
+#posts p {
+    background: linear-gradient(45deg, black, hsl(0, 0%, 10%));
+}
+
+#webpages button {
+    background: linear-gradient(hsl(282, 80%, 41%), hsl(282, 70%, 30%));
+}
+
+#webpages button:hover {
+    background: linear-gradient(hsl(282, 85%, 44%), hsl(282, 75%, 33%));
+    box-shadow: 0 0 10px hsl(0, 0%, 100%, 20%);
+}
+
+#gohead {
+    background: hsl(282, 100%, 28%);
+    box-shadow: rgba(0,0,0, 0.25) 0 0 12px;
+}
+
+#gohead:hover {
+    background: hsl(282, 100%, 35%);
+}
+
+#gohead p {
+    color: white;
+}
+
+footer {
+    background: linear-gradient(hsl(282, 100%, 44%), hsl(282, 100%, 25%));
+    box-shadow: hsl(0, 0%, 0%, 80%) 0 0 15px;
+}
+
+footer h1 {
+    text-shadow: hsl(0, 0%, 0%, 25%) 0 0 15px;
+}

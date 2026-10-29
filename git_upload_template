@@ -1,0 +1,15 @@
+# https://github.com/settings/tokens
+# https://gitlab.com/-/user_settings/personal_access_tokens
+# https://dash.cloudflare.com/profile/api-tokens
+
+git init
+git config --local user.name  "________"
+git config --local user.email "________"
+git config --global pack.compression 0
+git config --global pack.window 0
+git remote add     origin https://________@________.com/________/________
+git remote set-url origin https://________@________.com/________/________
+git add .
+git commit -m "."
+git push --set-upstream origin HEAD:main HEAD:master --force
+
